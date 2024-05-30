@@ -8,7 +8,7 @@ In this work, a novel Double Bulk (DB) model is proposed to characterize the eig
 
 ### Description
 - model: store the trained model and parmaters
-- estimation.py: Double bulk least squares algorithm to estimate the initial number of spikes $k_0$, the proportion of $\sigma_1^2$ among all bulk eigenvalues t, $\sigma_1^2$ and $\sigma_2^2$
+- estimation.py: Double bulk least squares algorithm to estimate the initial number of spikes $k_0$, the proportion of $\sigma_1^2$ among all bulk eigenvalues $t$, $\sigma_1^2$ and $\sigma_2^2$
 - FCNN_MNIST.py: train fully connected neural network on MNIST
 - neural.py: load and process neural networks
 - noise_filter.py: to evaluate the compressed model aftering recover and remove singular values
